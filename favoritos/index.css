@@ -1,0 +1,44 @@
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+header {
+    background-color:  #0074d9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header h1{
+    height: max-content;
+  }
+
+  body{
+    display:grid;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 0;
+  }
+  footer p {
+    font-size: 20px;
+  }
